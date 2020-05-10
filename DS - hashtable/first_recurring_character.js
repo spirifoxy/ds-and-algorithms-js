@@ -10,7 +10,6 @@
 // Given an array = [2,5,5,2,3,5,1,2,4]:
 // It should return 5
 
-
 /**
  * 
  * @param {string} input 
@@ -27,11 +26,9 @@ function firstRecurringCharacter(input) {
     return undefined;
 }
 
-
 let arr;
 arr = [2,5,1,2,3,5,1,2,4];
 console.log(firstRecurringCharacter(arr));
-
 
 arr = [2,1,1,2,3,5,1,2,4];
 console.log(firstRecurringCharacter(arr));
