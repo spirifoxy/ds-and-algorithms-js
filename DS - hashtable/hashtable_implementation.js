@@ -54,9 +54,7 @@ class HashTable {
     keys() {
         const keysArray = [];
         this.data.forEach(arr => {
-            console.log(arr);
             arr.forEach(keyValue => {
-                console.log(keyValue);
                 keysArray.push(keyValue[0]);
             });
         });
@@ -70,6 +68,4 @@ class HashTable {
   hashtable.set('MP', 700);
   hashtable.get('MP');
   hashtable.set('Hands', 3);
-  console.log(
-  hashtable.keys()
-  );
+  hashtable.keys();
